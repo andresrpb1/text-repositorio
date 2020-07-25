@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.header {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #B35057;
+    background: linear-gradient(to right, #f6f9ff, #e3f3ff);    
+    top: 0px;
+
+    
+}
+.header .container{
+   width: 90%;
+	max-width: 1440px;
+	margin: auto; 
+}
+
+.header .logo img{
+    padding: 0px;
+    margin: 36px;
+    width: 172px;
+    height: 80px;
+    position: relative;
+    right: 128px;
+    
+}
+
+.header .menu ul{
+ padding: 57px; list-style: none; width: 100%; text-align: right;
+}
+
+.header .menu ul li{ 
+    display: inline-block;
+    
+}
+
+.header .menu ul li a{
+    display: block;
+    color: #1c3144;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fr-view .direc .dir .forma a{
+    color: #1c3144;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    margin: 70px 250px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.imgdir a img {
+    
+    width: 100%;
+    max-width: 650px;
+    display: block;
+    margin: auto;
+  
+}
+
+.ref-direc {
+    margin: 50px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    
+}
+
+.ref-direc .ref-pala{
+    display: flex;
+    justify-content: center;
+    color: #1c3144;
+        
+  
+}
+
+.ref-direc .ref-enlace {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.ref-direc .ref-enlace a {
+    
+    color: #1c3144;
+    
+    
+}
+
+
